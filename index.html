@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Qr Code Generator</title>
+  </head>
+  <body>
+    <div
+      class="bg-gradient-to-b from-gray-950 to-gray-600 h-screen flex justify-center items-center"
+    >
+      <div class="bg-white px-6 py-2 rounded space-y-6 w-96">
+        <div class="space-y-2">
+          <p class="text-lg font-medium">Enter your text or url</p>
+          <input
+            type="text"
+            class="focus:outline-none w-full border-2 p-2 font-semibold rounded-md text-gray-700"
+          />
+        </div>
+        <img
+          src=""
+          class="h-52 w-52 mx-auto object-cover hidden"
+          alt="qr-code"
+        />
+        <button
+          class="bg-green-500 block w-full px-4 py-2 rounded text-white hover:bg-green-700 transition-colors duration-500 font-semibold"
+        >
+          Generate QR Code
+        </button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
