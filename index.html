@@ -11,7 +11,7 @@
     <div
       class="bg-gradient-to-b from-gray-950 to-gray-600 h-screen flex justify-center items-center"
     >
-      <div class="bg-white px-6 py-2 rounded space-y-2 w-96">
+      <div class="bg-white px-6 py-2 rounded space-y-4 w-96">
         <div class="space-y-2">
           <p class="text-lg font-medium">Enter your text or url</p>
           <input
@@ -20,8 +20,12 @@
             class="focus:outline-none w-full border-2 p-2 font-semibold rounded-md text-gray-700"
           />
         </div>
-        <div id="container" class="flex justify-center items-center w-full">
+        <div
+          id="container"
+          class="flex flex-col justify-center items-center w-full"
+        >
           <img id="generatorImg" class="mx-auto hidden" />
+
           <svg
             id="spinner"
             class="text-gray-300 animate-spin hidden"

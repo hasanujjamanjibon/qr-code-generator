@@ -16,7 +16,7 @@ generatorBtn.addEventListener("click", async () => {
   }
   setTimeout(() => {
     generatorImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=208x208&data=${text}`;
-    console.log(text);
+
     setTimeout(() => {
       generatorText.value = "";
     }, 2000);
